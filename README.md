@@ -9,9 +9,9 @@ The code in this tutorial is found in the official documentation for FastAPI: ht
 Make sure you have installed the requirements found in requirements.txt in a virtual environment using conda or virtualenv.
 
 ### Running the code
-
-`
+```
 uvicorn main:app --reload
-`
+```
+
 
 
