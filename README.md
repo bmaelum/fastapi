@@ -6,7 +6,7 @@ The code in this tutorial is found in the official documentation for FastAPI: ht
 
 ## Getting Started
 ### Requirements
-Make sure you have installed the requirements found in requirements.txt in a virtual environment using conda or virtualenv.
+Make sure you have installed the requirements found in requirements.txt in a virtual environment using tools such as conda or virtualenv.
 
 ### Running the code
 ```
