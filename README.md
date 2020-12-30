@@ -10,8 +10,8 @@ Make sure you have installed the requirements found in requirements.txt in a vir
 
 ### Running the code
 
-´´´
+`
 uvicorn main:app --reload
-´´´
+`
 
 
