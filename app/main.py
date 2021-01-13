@@ -3,7 +3,11 @@ from typing import Optional
 from fastapi import FastAPI 
 from pydantic import BaseModel
 
-app = FastAPI() 
+app = FastAPI(
+    title="FastAPI Tutorial",
+    description="This is a very fancy project, with auto docs for the API and everything",
+    version="1.0.0",
+) 
 
 class Item(BaseModel):
     name: str
