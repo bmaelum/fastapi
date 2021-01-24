@@ -4,6 +4,9 @@ This repo is for learning how to use FastAPI.
 ## Tutorial
 The code in this tutorial is found in the official documentation for FastAPI: https://fastapi.tiangolo.com/.
 
+## Deployment Tutorial
+https://towardsdatascience.com/deployment-could-be-easy-a-data-scientists-guide-to-deploy-an-image-detection-fastapi-api-using-329cdd80400 
+
 ## Getting Started
 ### Requirements
 Make sure you have installed the requirements found in requirements.txt in a virtual environment using tools such as conda or virtualenv.
@@ -12,6 +15,8 @@ Make sure you have installed the requirements found in requirements.txt in a vir
 ```
 uvicorn main:app --reload
 ```
+
+
 
 ### Sample Request
 #### Python
