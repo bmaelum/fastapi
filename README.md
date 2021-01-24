@@ -28,7 +28,7 @@ sudo docker start fastapi-container
 #### Docs
 http://ec2-34-253-214-90.eu-west-1.compute.amazonaws.com/redoc
 
-## Getting Started
+## Running the app locally
 ### Requirements
 Make sure you have installed the requirements found in requirements.txt in a virtual environment using tools such as conda or virtualenv.
 
@@ -39,7 +39,7 @@ uvicorn main:app --reload
 
 
 
-### Sample Request
+### Getting Started with the API: Sample Request
 #### Python
 ```
 import requests
