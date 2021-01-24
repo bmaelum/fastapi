@@ -7,6 +7,27 @@ The code in this tutorial is found in the official documentation for FastAPI: ht
 ## Deployment Tutorial
 https://towardsdatascience.com/deployment-could-be-easy-a-data-scientists-guide-to-deploy-an-image-detection-fastapi-api-using-329cdd80400 
 
+### Accessing the server
+The server is an Ubuntu 18.4 LTS on AWS and can be connected using the following command where the .pem file is the SSH key: 
+```
+ssh -i "fastapi.pem" ubuntu@ec2-34-253-214-90.eu-west-1.compute.amazonaws.com
+```
+
+
+### Building the docker image
+```
+sudo docker build -t fastapi-image .
+```
+
+### Starting the docker container
+```
+sudo docker start fastapi-container
+```
+
+### Accessing the app
+#### Docs
+http://ec2-34-253-214-90.eu-west-1.compute.amazonaws.com/redoc
+
 ## Getting Started
 ### Requirements
 Make sure you have installed the requirements found in requirements.txt in a virtual environment using tools such as conda or virtualenv.
